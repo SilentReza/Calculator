@@ -1,0 +1,35 @@
+* {
+    font-family: iranyekan;
+    font-size: auto;
+    text-decoration: none;
+}
+
+*::selection {
+    background-color: salmon;
+    color: black;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+#page-body {
+    background-image: url(Img/background.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Calculator-do {
+    width: 60px;
+    height: 60px;
+}
+
+#result-show {
+    width: 260px;
+    height: 40px;
+}
+
+#Calculator-body {
+    margin: 250px;
+}
